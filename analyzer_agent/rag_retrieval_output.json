@@ -1,0 +1,35 @@
+{
+  "query": "data validation responsibilities in migration",
+  "retrieved_chunks": [
+    {
+      "sow_id": "Migration SOW- DIRO -08012025.docx",
+      "chunk_id": "Migration SOW- DIRO -08012025.docx_21",
+      "content": "Ankercloud will focus on testing and validation of the migrated systems to confirm functionality, performance, and security. After successful validation, a cutover plan will be executed to switch live traffic to the new GCP environment. Post-migration, we will closely monitor the system using Cloud Logging and Cloud Monitoring to ensure smooth operations and resolve any issues promptly. This lift-and-shift migration will result in enhanced scalability, performance, and security for Diro Labs.",
+      "score": 7.23879038768241
+    },
+    {
+      "sow_id": "Migration SOW- DIRO -08012025.docx",
+      "chunk_id": "Migration SOW- DIRO -08012025.docx_28",
+      "content": "Migrate virtual machines to Compute Engine instances using Migrate for Compute Engine. Application Migration: Containerize applications and deploy them to GKE. Configure load balancing and firewall rules. Testing and Validation: Thoroughly test migrated applications and data to ensure they function correctly in the GCP environment. Validate performance and security. Cutover and Go-Live: Implement a cutover plan to switch traffic from the existing infrastructure to GCP.",
+      "score": 6.217123051476301
+    },
+    {
+      "sow_id": "Balwaan Krishi Migration SOW .docx",
+      "chunk_id": "Balwaan Krishi Migration SOW .docx_21",
+      "content": "Comprehensive testing and validation will be conducted post-migration to ensure all systems are fully operational and secure. The project will prioritize minimal downtime and data integrity, leveraging GCP's robust infrastructure and services to support Balwaan’s ongoing operations and future growth. Additionally, Once Migration is completed Ankercloud will provide Consulting services to the Balwaan Krishi team for their ML Workloads.",
+      "score": 6.075474542312861
+    },
+    {
+      "sow_id": "Copy of Bro4U SOW.docx",
+      "chunk_id": "Copy of Bro4U SOW.docx_2",
+      "content": "In the Data Migration phase, we will transfer data and applications to GCP. Key activities include using GCP Data Transfer services and the Database Migration Service. Use Data Transfer services: Move data efficiently with minimal downtime. Employ Database Migration Service: Ensure data integrity. Migrate virtual machines: Use Migrate for Compute Engine and replicate AWS network setup.",
+      "score": 4.678575059093583
+    },
+    {
+      "sow_id": "Copy of Bro4U SOW.docx",
+      "chunk_id": "Copy of Bro4U SOW.docx_8",
+      "content": "Vendor API (Compute): Allows interaction with GCP compute resources through APIs. Crons (Compute): Schedules tasks to run at specific times. Admin (Compute): Manages compute resources within GCP. Workflow: Assessment: Analyze existing AWS infrastructure to determine the best migration strategy. Data Migration: Move data from AWS to GCP using Data Transfer and Database Migration Service. Infrastructure Setup: Create VPCs, subnets, and other network components in GCP.",
+      "score": 4.2681518715285955
+    }
+  ]
+}
