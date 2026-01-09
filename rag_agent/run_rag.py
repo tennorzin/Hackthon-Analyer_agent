@@ -2,7 +2,7 @@ import os
 import json
 from ingest.parse_docx import extract_text_from_docx
 from ingest.chunker import chunk_text
-from retrieval.bm25_retrieval import build_bm25_index, retrieve_bm25
+from bm25_retrieval import build_bm25_index, retrieve_bm25
 
 # 1) Load and chunk SOW docs
 base_dir = "data"
