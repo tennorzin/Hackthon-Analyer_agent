@@ -1,3 +1,0 @@
-This SOW describes a cloud migration project for a financial services client.
-The client requires assessment, design, and implementation of secure cloud architecture.
-Key constraints include regulatory compliance, zero downtime migration, and integration with existing on-prem systems.
